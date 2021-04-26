@@ -1,0 +1,33 @@
+package com.ag.microservice.orderservice.dto;
+
+public class OrderResponse {
+
+    private String OrderId;
+    private String UserId;
+    private String Message;
+
+    public String getUserId() {
+        return UserId;
+    }
+
+    public void setUserId(String userId) {
+        UserId = userId;
+    }
+
+    public String getOrderId() {
+        return OrderId;
+    }
+
+    public void setOrderId(String orderId) {
+        OrderId = orderId;
+    }
+
+    public String getMessage() {
+        return Message;
+    }
+
+    public void setMessage(String message) {
+        Message = message;
+    }
+}
+
